@@ -25,8 +25,9 @@ const PlayersCard = (props) => {
   }
   return (
     <div
+      data-aos="fade-left"
       className={`bg-white shadow-lg rounded-lg p-6 ${
-        isSelected ? "opacity-70" : ""
+        isSelected ? "opacity-100" : ""
       }`}
     >
       {strThumb ? (
